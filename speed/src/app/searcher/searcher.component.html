@@ -1,0 +1,8 @@
+<h3>Search a Launch</h3>
+
+<app-display-searcher
+  [filterTypesInput]="filterTypes"
+  (changeFilterType)="selectFilterValue($event)"
+  [valueFilterInput]="filterValues"
+  (changeFilterValue)="selectLaunches($event)">
+</app-display-searcher>
